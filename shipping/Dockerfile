@@ -8,4 +8,4 @@ COPY src .
 ENV CART_ENDPOINT="cart:8080" \
     DB_HOST="mysql" 
 #CMD ["java", "-jar", "shipping.jar"]
-CDM ["sleep","1000"]
+CMD ["sleep","1000"]
