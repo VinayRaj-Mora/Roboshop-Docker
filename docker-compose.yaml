@@ -6,4 +6,4 @@ networks:
   default:
     driver: bridge
     name: roboshop
-    external: false #true if u have already created the network and want to use it
+    external: true #true if u have already created the network and want to use it
