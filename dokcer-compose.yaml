@@ -1,0 +1,10 @@
+services:
+  mongodb:
+    image: mongodb:v1
+    container_name: mongodb
+
+networks:
+  default:
+    name: roboshop
+    external: false #true if have created network roboshop in docker
+    
