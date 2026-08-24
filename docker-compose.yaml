@@ -54,7 +54,7 @@ services:
     - catalogue
     - user
     - cart
-    - shippping
+    - shipping
     - payment
  
 networks:
